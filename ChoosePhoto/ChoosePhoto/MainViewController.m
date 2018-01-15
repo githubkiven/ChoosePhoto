@@ -184,8 +184,6 @@
     
     NSLog(@"finish..");
     
-    
-    
     if(picker.sourceType == UIImagePickerControllerSourceTypeCamera)
         
     {
