@@ -69,7 +69,7 @@
     
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    NSLog(@"buttonIndex-----%zi",buttonIndex);
+    NSLog(@"buttonIndex-----%li",(long)buttonIndex);
     
     if (buttonIndex==0) {
         
